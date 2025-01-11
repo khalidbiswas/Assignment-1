@@ -1,0 +1,81 @@
+
+
+body{
+    background: rgb(240, 240, 233);
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sgnbtn{
+    background: #006A50;
+    height: 52px;
+    width: 116px;
+    padding: 30px px;
+    border: solid forestgreen 3px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+/* --------Banner------- */
+.bannerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background: rgb(118, 151, 68);
+    padding: 0 100px;
+    border-radius: 10px;
+}
+.bannerText{
+    text-align: left;
+    
+}
+.suptext{
+    color: rgb(77, 70, 70);
+    
+
+}
+.titlemoto{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 5px 0;
+}
+.exbtn{
+    cursor: pointer;
+    background: #006A50;
+    padding: 8px 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* pilars----------------------------------------------- */
+.pillarsTitle{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.parentPiller {
+    border-radius: 10px;
+    display: flex;
+    gap: 2px;
+}
+.pillercard{
+    border: none;
+    border-radius: 5px;
+    background: rgb(223, 184, 184);
+}
+
+
+
+
+
