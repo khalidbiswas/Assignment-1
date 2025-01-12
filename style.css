@@ -1,20 +1,18 @@
-
-
-body{
+body {
     background: rgb(240, 240, 233);
     max-width: 1000px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
-.nav{
+.nav {
 
     display: flex;
     justify-content: space-between;
 
 }
 
-.sgnbtn{
+.sgnbtn {
     background: #006A50;
     height: 52px;
     width: 116px;
@@ -27,30 +25,34 @@ body{
 
 
 /* --------Banner------- */
-.bannerContainer{
+.bannerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    background:#C6E4D6;
+    background: #C6E4D6;
     padding: 0 100px;
     border-radius: 10px;
 }
-.bannerText{
+
+.bannerText {
     text-align: left;
-    
-}
-.suptext{
-    color: rgb(77, 70, 70);
-    
 
 }
-.titlemoto{
+
+.suptext {
+    color: rgb(77, 70, 70);
+
+
+}
+
+.titlemoto {
     font-weight: bolder;
     font-size: 40px;
     margin: 5px 0;
 }
-.exbtn{
+
+.exbtn {
     cursor: pointer;
     background: #006A50;
     padding: 8px 5px;
@@ -58,38 +60,172 @@ body{
     border: none;
     border-radius: 5px;
 }
+
 /* pilars----------------------------------------------- */
-.pillarsTitle{
+.pillarsTitle {
     margin-top: 70px;
     font-weight: bolder;
     font-size: 30px;
 }
+
 .parentPiller {
     border-radius: 10px;
     display: flex;
     gap: 20px;
     margin-top: 20px;
 }
-.pillercard{
+
+.pillercard {
     border: none;
     border-radius: 10px;
     background: white;
     padding: 10px;
-    width:205.67px;
+    width: 205.67px;
     height: 205px;
 }
-.pTitle{
+
+.pTitle {
     padding: 5px 0;
     font-size: 20px;
     font-weight: 800;
 }
 
+/* The Vision of Future */
+.futureData {
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.childCard {
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.card1 {
+    background-color: #81B4FC;
+}
+
+.child2 {
+    background-color: #C6E4D6;
+}
+
+.child3 {
+    background-color: #F7EBCF;
+
+}
+
 
 /* waterMark */
-.waterMarkParent{
-    background-image: url("./assets/quote-bg.png");
+
+.watermarkQuote {
+    background-image: url('/assets/quote-bg.png');
     background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 10px;
+
 }
+
+/* table */
+
+.table {
+
+    border-collapse: collapse;
+
+
+}
+
+.trow {
+
+    background-color: #C6E4D6;
+
+}
+
+
+.dropdown {
+
+    background-color: rgba(120, 219, 120, 0.781);
+}
+
+.oppinion {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* recent news */
+.recentnews {
+border: none;
+border-radius: 10px;
+background-color: white;
+
+}
+
+.newsdesk {
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    
+}
+
+.newsParent {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.img {
+
+    width: 300 px;
+    border-radius: 20px;
+
+}
+
+.newsPara {
+
+    width: 650px;
+    /* background-color: ; */
+
+}
+.reverse{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.readMore{
+    background-color: #006A50;
+    cursor: pointer;
+   width: 130px;
+   height: 40px;
+   border:none;
+   border-radius: 10px;
+
+    
+}
+.readMore:hover {
+     background-color: cadetblue;
+     box-shadow: #1c352f 10px 10px;
+ }
 
 /* subscribe
 .subdParent{
@@ -99,5 +235,3 @@ body{
     margin-top: 20px;
     
 } */
-
-
