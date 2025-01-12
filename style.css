@@ -169,17 +169,19 @@ body {
 border: none;
 border-radius: 10px;
 background-color: white;
+padding: 20px;
 
 }
 
 .newsdesk {
     margin-bottom: 20px;
     display: flex;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 10px;
     /* overflow: hidden; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 900px;
+    padding: 10px;
     
 }
 
@@ -313,4 +315,16 @@ margin-top: 19px;
     margin-top: 10px;
     font-size: 14px;
     color: #555;
+}
+.foot{
+
+    align-items: center;
+    text-align: center;
+}
+.icon{align-items: center;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 370px;
+
 }
